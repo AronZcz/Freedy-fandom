@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: beige;
+    background-image:  url("https://i.pinimg.com/originals/78/b7/51/78b75162b2940fc1b576d3f84e6dd08b.jpg");
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: repeat;
+}
+
+div{
+    width: 100%;
+    height: 100%;
+
+    float: left;
+
+    background-position: center center;
+    background-size: 210%;
+    background-repeat: no-repeat;
+
+    position:relative;
+}
+img{
+    max-width: 100px;
+    max-height: 100px;
+    object-fit:scale-down;
+}
+h3{
+    position:fixed;
+    margin-top: 2%;
+
+    white-space: nowrap;
+}
+
+#main_container{
+    display: flex;
+    flex-direction: row;
+
+    max-width: 50%;
+    max-height: 50%;
+
+    margin-left: 25%;
+    margin-right:25%;
+
+    margin-top: 10%;
+
+
+    height: 600px;
+
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#first_half{
+    width: 80%;
+    height: 100%;
+}
+#secound_half{
+    width: 20%;
+    height: 100%;
+}
+
+.pic{
+    background-position: center center;
+    background-size: 120%;
+    background-repeat:no-repeat;
+}
+
+.welcomAnim{
+    animation-name: welcom;
+    animation-duration: 5s;
+}
+
+
+@keyframes welcom{
+
+}
+
+
+
+
+
+
