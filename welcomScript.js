@@ -27,7 +27,7 @@ function init()
     for(let i = 0; i < 7; i++)
     {
         audioList[i] = new Audio(fredyPic[i].innerHTML);
-
+				
         fredyPic[i].onclick = () => 
         {
             for(let j = 0; j < 7; j++)
