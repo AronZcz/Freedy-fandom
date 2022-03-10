@@ -1,7 +1,6 @@
 var audioList = new Array(7);
 
-
-var alert_infor = document.getElementById("alert_box");// pasek alert
+//var alert_infor = document.getElementById("alert_box");// pasek alert
 var main_container = document.getElementById("main_container");
 var fredyPic = document.getElementsByClassName("pic");
 
@@ -42,4 +41,21 @@ function init()
     }
 }
 
-init();
+function playAnim()
+{ 
+	
+}
+
+function redirectToMainSite()
+{
+	
+}
+
+window.onload = function() {
+  init();
+};
+
+document.getElementById("startAnimBtn").onclick = () => {
+	playAnim();
+	redirectToMainSite();
+}
